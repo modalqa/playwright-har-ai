@@ -1,0 +1,20 @@
+{
+  "name": "playwright-har-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "npx playwright test",
+    "analyze": "node analyze-har.js",
+    "ai": "node ai-summary.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@playwright/test": "^1.55.0",
+    "dotenv": "^17.2.2",
+    "node-fetch": "^3.3.2"
+  }
+}
